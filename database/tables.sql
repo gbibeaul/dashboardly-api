@@ -41,6 +41,3 @@ CREATE TABLE bookmarks (
   createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
-
-INSERT INTO bookmarks (boardId, title, url)
-VALUES (1, 'hashing', 'http://www.md5.cz/')
